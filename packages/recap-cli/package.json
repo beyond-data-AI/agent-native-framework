@@ -36,13 +36,13 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@types/node": "^25.9.2",
+    "@types/node": "^25.9.9",
     "typescript-7": "catalog:",
     "vitest": "catalog:"
   },
   "optionalDependencies": {
-    "@playwright/test": "^1.61.1",
-    "playwright": "^1.61.1"
+    "@playwright/test": "^1.64.1",
+    "playwright": "^1.64.1"
   },
   "engines": {
     "node": ">=22.22.0"

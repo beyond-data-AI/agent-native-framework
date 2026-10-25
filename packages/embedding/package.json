@@ -53,10 +53,10 @@
   },
   "devDependencies": {
     "@agent-native/core": "workspace:*",
-    "@types/react": "^19.2.15",
-    "react": "^19.2.6",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
     "typescript-7": "catalog:",
-    "vitest": "^4.1.5"
+    "vitest": "^4.1.12"
   },
   "peerDependencies": {
     "@agent-native/core": ">=0.22.0",

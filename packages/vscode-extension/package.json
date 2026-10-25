@@ -35,9 +35,9 @@
     "vscode:prepublish": "pnpm run build"
   },
   "devDependencies": {
-    "@types/node": "^25.9.3",
-    "@types/vscode": "1.120.0",
-    "@vscode/test-electron": "3.0.0",
+    "@types/node": "^25.9.9",
+    "@types/vscode": "1.140.0",
+    "@vscode/test-electron": "3.1.0",
     "typescript-7": "catalog:",
     "vitest": "catalog:"
   },

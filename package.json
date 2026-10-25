@@ -96,18 +96,18 @@
     "dev:electron:apps": "node scripts/dev-electron.ts --apps"
   },
   "devDependencies": {
-    "@changesets/cli": "2.31.0",
-    "@cloudflare/vite-plugin": "^1.31.0",
+    "@changesets/cli": "2.31.1",
+    "@cloudflare/vite-plugin": "^1.65.0",
     "@libsql/linux-x64-gnu": "^0.5.29",
-    "@playwright/test": "^1.61.1",
-    "concurrently": "^9.1.0",
+    "@playwright/test": "^1.64.1",
+    "concurrently": "^9.2.5",
     "oxfmt": "0.56.0",
-    "oxlint": "1.71.0",
+    "oxlint": "1.89.0",
     "oxlint-tsgolint": "0.24.0",
-    "prettier": "^3.6.2",
-    "tsx": "^4.20.3",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
     "typescript-7": "catalog:",
-    "wrangler": "^4.80.0"
+    "wrangler": "^4.152.0"
   },
   "engines": {
     "node": ">=22.22.0"
@@ -115,10 +115,10 @@
   "packageManager": "pnpm@10.29.1",
   "pnpm": {
     "overrides": {
-      "react": "19.2.7",
-      "react-dom": "19.2.7",
-      "@types/react": "^19.2.14",
-      "@types/react-dom": "^19.2.3",
+      "react": "19.3.1",
+      "react-dom": "19.3.1",
+      "@types/react": "^19.3.0",
+      "@types/react-dom": "^19.3.0",
       "rollup": ">=4.59.0",
       "multer": ">=2.1.1",
       "minimatch": ">=9.0.7",

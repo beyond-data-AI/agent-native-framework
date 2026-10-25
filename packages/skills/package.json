@@ -38,10 +38,10 @@
   },
   "dependencies": {
     "@agent-native/core": "workspace:*",
-    "@clack/prompts": "^1.5.1"
+    "@clack/prompts": "^1.8.1"
   },
   "devDependencies": {
-    "@types/node": "^25.9.2",
+    "@types/node": "^25.9.9",
     "typescript-7": "catalog:",
     "vitest": "catalog:"
   }

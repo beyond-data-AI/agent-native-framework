@@ -12,10 +12,10 @@
     "package": "pnpm build && tsx scripts/package.ts"
   },
   "dependencies": {
-    "@sentry/browser": "10.62.0"
+    "@sentry/browser": "10.76.2"
   },
   "devDependencies": {
-    "@types/chrome": "^0.2.0",
+    "@types/chrome": "^0.2.9",
     "tsx": "catalog:",
     "typescript-7": "catalog:",
     "vite": "catalog:",
