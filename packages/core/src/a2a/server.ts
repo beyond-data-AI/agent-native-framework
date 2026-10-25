@@ -118,7 +118,7 @@ export async function verifyA2AToken(
   let orgDomainHint: string | undefined;
   let unverifiedPayload: jose.JWTPayload | undefined;
   try {
-    unverifiedPayload = jose.decodeJwt(token);
+    unverifiedPayload = jose.decodeJwt<jose.JWTPayload>(token);
     orgDomainHint = unverifiedPayload.org_domain as string | undefined;
   } catch {
     // Malformed token — fall through to global secret attempt
