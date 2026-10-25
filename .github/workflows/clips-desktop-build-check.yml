@@ -45,7 +45,7 @@ jobs:
       MACOSX_DEPLOYMENT_TARGET: ${{ matrix.os == 'macos-latest' && '13.0' || '' }}
       GGML_METAL_MACOSX_VERSION_MIN: ${{ matrix.os == 'macos-latest' && '13.0' || '' }}
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v4.4.0
 
@@ -85,7 +85,7 @@ jobs:
           echo "RUSTFLAGS=${RUSTFLAGS:-} -C link-arg=${CLANG_RUNTIME}" >> "$GITHUB_ENV"
 
       - name: Rust cache
-        uses: swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32 # v2
+        uses: swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2.9.3
         with:
           workspaces: ${{ env.TAURI_APP_PATH }}/src-tauri
 
