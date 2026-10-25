@@ -27,7 +27,7 @@
     "@google/genai": "^1.42.0",
     "@libsql/client": "^0.15.0",
     "@tabler/icons-react": "catalog:",
-    "@tiptap/core": "3.27.1",
+    "@tiptap/core": "3.30.5",
     "@tiptap/extension-collaboration": "3.27.1",
     "@tiptap/extension-collaboration-caret": "3.27.1",
     "@tiptap/extension-color": "3.27.1",
